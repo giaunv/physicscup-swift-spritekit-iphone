@@ -16,6 +16,16 @@ class StarNode: SKSpriteNode {
         sprite.xScale = 0.075
         sprite.yScale = 0.075
         sprite.position = location
+        
+        sprite.physicsBody = SKPhysicsBody(texture: SKTexture(imageNamed: "star.png"), size: sprite.size)
+        if let physic = sprite.physicsBody{
+            physic.affectedByGravity = true
+            physic.allowsRotation = true
+            physic.dynamic = true
+            physic.linearDamping = 0.75
+            physic.angularDamping = 0.75
+        }
+        
         return sprite
     }
 }

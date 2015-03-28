@@ -11,7 +11,7 @@ import SpriteKit
 class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
-        
+        self.physicsWorld.gravity = CGVectorMake(0.0, -4.9);
     }
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
