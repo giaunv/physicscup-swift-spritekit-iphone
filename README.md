@@ -1,4 +1,4 @@
-# A demo for iPhone with Swift, SpriteKit, Xcode 6.1, iOS SDK 8.1 tutorial by John Fisher at atomicobject.com
+# A demo for iPhone with Swift, SpriteKit, Xcode 6.1, iOS SDK 8.1 tutorial by John Fisher @atomicobject.com
 
 **Tutorial**
 
